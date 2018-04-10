@@ -21,7 +21,7 @@
 * Leben im Familienverband
 * Arbeitszeit/Freizeit (keine strikte Teilung)
 
-> Der Begriff Informationsgesellschaft bezeichnet eine auf Informations- und Kommunikationstechnologien (IKT) basierende Gesellschaft … Quelle: [Informationsgesellschaft – Wikipedia](https://de.wikipedia.org/wiki/Informationsgesellschaft)  
+> Der Begriff Informationsgesellschaft bezeichnet eine auf Informations- und Kommunikationstechnologien (IKT) basierende Gesellschaft. — Quelle: [Informationsgesellschaft – Wikipedia](https://de.wikipedia.org/wiki/Informationsgesellschaft)  
 
 #### Industriegesellschaft (1750 n.Ch.)
 * Bildung von Industriegesellschaften, Kapitalismus, Arbeitsgesellschaften
@@ -111,7 +111,7 @@ Informationsverarbeitung
 	* Computer wurde nicht mehr als Maschine sondern auch als Medium genutzt
 * Turning Galaxis (Coy 1993)
 	* Leitmedium: vernetzter Computer
-* Verwissenschaftlich, dienstleistungszentriert, akademisiert
+* Verwissenschaftlich, dienstleistungszentriert, akademiesiert
 * neue Dimensionen: Risiko-, Medien-, Netzwerk-, Dienstleistungs-, Individual-, Kontroll-, Wissensgesellschaft
 * für uns aber **wichtig** die **Informationsgesellschaft**
 	
@@ -142,5 +142,55 @@ für Informatik, attac, 99% / Occupy)
 * **Mischformen:** Thinktanks, sonstige Zusammenschlüsse
 (BITKOM, ICANN (IANA, DNS etc.), Mozilla Foundation,
 Fairphone)
+
+### Informationsverarbeitung
+
+#### Technische Belange
+* Daten, Wissen, Informationen
+* Bild, Schrift oder Zahl müssen gegeben sein um was verarbeiten zu können
+* Information ist ein Maß von Entropie
+	
+#### Juristische Belange
+* Datenschutz allgemein
+* Volkszählungsurteil, … 
+* wenige konkrete detaillierte Lösungen sondern abstrakte Ansätze:
+* **wichtig** Bundesverfassungsgericht Urteile:
+	* **Volkszählungsurteil** 
+	 (Recht auf Informationelle Selbstbestimmung: Erhebung, Speicherung, Verwendung und Weitergabe)
+	* **Grundrecht** auf Gewährleistung der Vertraulichkeit und Integrität informationstechnischer Systeme
+	
+> **BDSG §1 Abs. 1:** Zweck dieses Gesetzes ist es, den Einzelnen davor zu schützen, dass er durch den Umgang mit seinen personenbezogenen Daten in seinem Persönlichkeitsrecht beeinträchtigt wird.  
+
+#### Ethische Belange
+* Informationsnutzung mit Selbstbestimmung 
+
+> Ethik ist das Verhältnis zwischen Verantwortung und Freiheit — Koubek 2007  
+
+* Wie ist denn das **richtige** handeln? 
+* Wo arbeitet man? 
+* Macht man alles was der Chef von einem will?
+
+##### Probleme im Zusammenhang mit der Ethik:
+
+* Informatik **verdrängt Arbeitskräfte**
+* **beschränkt** Wissen
+* Gefährdung durch **unsichere** Systeme
+* Vorzeitige Freigabe **schlecht programmierte oder mangelhaft getesteter** Systeme
+* Technik hebelt Gesetze aus (z.B. Datenschutz, Web-Logs)
+* **Kriegerische** Nutzung, Nutzung in zweifelhaften Kontexten
+* Einsatz von **Viren, Würmern, Trojanern**
+* Illegale und **illegitime** Softwarenutzung
+* Verkauf oder Nutzungsfreigabe von Datenbanken zweifelhaften Inhalts
+* Falsches Handeln der eigenen Organisation: _„Whistleblowing“_
+
+Weitere Informationen auch hier zu finden: [Aktuelles — Forum InformatikerInnen für Frieden und gesellschaftliche Verantwortung e.V.](https://www.fiff.de/)
+
+##### Dual-Usage
+* Information als Lebensrettung oder auch Todesurteil
+
+##### GI - Gesellschaft für Informatik
+* Erstellung einer Ethischen Leitlinien
+
+> Das Handeln von Informatikerinnen und Informatikern steht in Wechselwirkung mit unterschiedlichen Lebensweisen, deren besondere Art und Vielfalt sie berücksichtigen sollen. Mehr noch sehen sie sich dazu verpflichtet, allgemeine moralische Prinzipien, wie sie in der Allgemeinen Deklaration der Menschenrechte formuliert sind, zu wahren. Diese Leitlinien sind Ausdruck des gemeinsamen Willens, diese Wechselwirkungen als wesentlichen Teil des eigenen individuellen und institutionellen beruflichen Handelns zu betrachten. Der offene Charakter der nachfolgenden Artikel wird mit dem Begriff Leitlinien unterstrichen. — Präambel [Unsere Ethischen Leitlinien - Gesellschaft für Informatik e.V.](https://gi.de/ueber-uns/organisation/unsere-ethischen-leitlinien/)  
 
 #dud
