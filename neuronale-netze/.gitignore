@@ -1,0 +1,4 @@
+__pycache__
+.ipynb_*
+cifar*
+*.pyc

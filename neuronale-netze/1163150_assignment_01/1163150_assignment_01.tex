@@ -1,0 +1,181 @@
+\documentclass[addpoints,a4paper,ngerman,12pt,answers]{exam}
+\usepackage{babel}
+\usepackage[a4paper,top=2.5cm,bottom=3cm,left=2.5cm,right=2cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{csquotes}
+\usepackage{paralist}
+\usepackage{amsmath}
+\usepackage{pslatex}
+\usepackage{pdfpages}
+\usepackage{import}
+
+%\usepackage{wasysym}
+%\usepackage[math]{iwona}
+%\usepackage{enumerate}
+%\usepackage{array}
+%\usepackage{eqnarray}
+%\usepackage{longtable}
+
+% changing keywords to german
+\pointpoints{Punkt}{Punkte}
+\bonuspointpoints{Bonuspunkt}{Bonuspunkte}
+\renewcommand{\solutiontitle}{\noindent\textbf{Lösung:}\enspace}
+
+\chqword{Frage}
+\chpgword{Seite}
+\chpword{Punkte}
+\chbpword{Bonus Punkte}
+\chsword{Erreicht}
+\chtword{Gesamt}
+% scoreboard
+\hpword{Punkte:}
+\hsword{Ergebnis:}
+\hqword{Aufgabe:}
+\htword{Summe:}
+
+
+\checkboxchar{\Square}
+\checkedchar{\CheckedBox}
+
+\pagestyle{headandfoot}
+\firstpageheadrule
+\runningheadrule
+\firstpageheader{HTW Berlin}{}{SoSe 2018}
+\runningheader{HTW Berlin}{1163150 - Übung 1}{SoSe 2018}
+\firstpagefooter{}{}{\thepage\,/\,\numpages}
+\runningfooter{Name/MatNr.:}{}{\thepage\,/\,\numpages}
+
+\noprintanswers
+
+\begin{document}
+
+\vspace*{2em}
+
+\begin{center}
+	{\Large 1163150 - Übung 1}
+\end{center}
+
+\vspace*{3em}
+
+\makebox[\textwidth]{Name, Vorname:\enspace\hrulefill}
+
+\vspace*{2em}
+
+\makebox[\textwidth]{Matrikelnummer:\enspace\hrulefill}
+
+\vspace*{2em}
+
+\begin{itemize}
+\item Abgabetermin der Übung ist der 2. Mai 2018
+\item Elektronische Abgaben erfolgen grundsätzlich über die Moodle-Plattform.
+\item Handgeschriebene Lösungsaufgaben können ins Fach eingeworfen werden (WH C Etage 2)
+\item Für jeden Tag nach Abgabefrist werden 5 Punkte der Maximalpunktzahl abgezogen
+\item Über alle Übungen hinweg besitzten Sie 3 Bonustage, die Sie für eine verspätete Abgabe ohne Punktabzug verwenden können
+\end{itemize}
+
+\vspace*{25em}
+
+\begin{center}
+	\gradetable[h][questions]
+\end{center}
+
+\clearpage
+
+\begin{questions}
+    \question Lineare Algebra
+
+    Gegeben sind die folgenden Matrizen $A$ und $B$ sowie die Vekoten $\vec{x}$ und $\vec{y}$:
+
+    \begin{equation*}
+        X =
+        \begin{pmatrix}
+        4 & 4 & 5 \\
+        2 & 1 & 7 \\
+        4 & 8 & 3
+        \end{pmatrix}
+        ,
+        Y =
+        \begin{pmatrix}
+        1 & 6 \\
+        3 & 1 \\
+        5 & 2
+        \end{pmatrix}
+        ,
+        \vec{x} =
+        \begin{pmatrix}
+        9 \\
+        5 \\
+        7
+        \end{pmatrix}
+        ,
+        \vec{y} =
+        \begin{pmatrix}
+        3 \\
+        1 \\
+        5
+        \end{pmatrix}
+    \end{equation*}
+
+    \vspace{0.3cm}
+
+    \begin{parts}
+        \part[1] Berechenen Sie das Skalarprodukt $\vec{x} * \vec{y}$. Notieren Sie den vollständigen Rechenweg.
+
+        %\begin{solutionbox}{\stretch{1}}
+            % UNCOMMENT AND PUT YOUR SOLUTION HERE
+        %\end{solutionbox}
+
+        \part[0] Berechenen Sie das Produkt $\vec{x} * \vec{y}^T$. Notieren Sie den vollständigen Rechenweg.
+
+        %\begin{solutionbox}{\stretch{1}}
+            % UNCOMMENT AND PUT YOUR SOLUTION HERE
+        %\end{solutionbox}
+
+        \part[2] Berechenen Sie das Produkt $A * B$. Notieren Sie den vollständigen Rechenweg.
+
+        %\begin{solutionbox}{\stretch{1}}
+            % UNCOMMENT AND PUT YOUR SOLUTION HERE
+        %\end{solutionbox}
+
+        \part[0] Berechenen Sie das Produkt $B * A$. Notieren Sie den vollständigen Rechenweg.
+
+        %\begin{solutionbox}{\stretch{1}}
+            % UNCOMMENT AND PUT YOUR SOLUTION HERE
+        %\end{solutionbox}
+
+        \part[0] Wie können Sie die Matrizen $A, B$ modizifieren, sodass die Werte des Produkts $B * A$ den Werten des Produkts $A * B$ entsprechen. Notieren Sie den vollständigen Rechenweg.
+
+        %\begin{solutionbox}{\stretch{1}}
+            % UNCOMMENT AND PUT YOUR SOLUTION HERE
+        %\end{solutionbox}
+
+        \part[0] Berechenen Sie das Frobenius-Produkt $ \left \langle A,B \right \rangle_F $. Notieren Sie den vollständigen Rechenweg.
+
+        %\begin{solutionbox}{\stretch{1}}
+            % UNCOMMENT AND PUT YOUR SOLUTION HERE
+        %\end{solutionbox}
+
+        \part[2] Berechenen Sie das Hadamard-Produkt $A \circ B$. Notieren Sie den vollständigen Rechenweg.
+
+        %\begin{solutionbox}{\stretch{1}}
+            % UNCOMMENT AND PUT YOUR SOLUTION HERE
+        %\end{solutionbox}
+
+        \part[10] Implementieren Sie das Jupyter-Notebook \frqq linear\_algebra.ipynb \flqq.
+    \end{parts}
+
+      \vspace{0.3cm}
+
+    \question k-Nearest-Neighbor (kNN)
+    \begin{parts}
+        \part[0] Implementieren Sie das Jupyter-Notebook \\ \frqq k\_nearest\_neighbor\_total.ipynb \flqq.
+
+        \part[5] Implementieren Sie die Kreuzvalidierung im Jupyter-Notebook \\ \frqq k\_nearest\_neighbor\_cross.ipynb\flqq \hspace{0.1cm} sowie die vektorisierte Distanzberechnung im Skript \frqq k\_nearest\_neighbor\_cross.py \flqq
+    \end{parts}
+
+\end{questions}
+
+\end{document}
