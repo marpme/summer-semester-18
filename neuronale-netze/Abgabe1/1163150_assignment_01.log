@@ -1,0 +1,26 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.4.26)  26 APR 2018 13:54
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**1163150_assignment_01.tex
+(./1163150_assignment_01.tex
+LaTeX2e <2017-04-15>
+Babel <3.10> and hyphenation patterns for 84 language(s) loaded.
+! TeX capacity exceeded, sorry [parameter stack size=10000].
+\@fileswithoptions #1->
+                       \@ifnextchar [{\@fileswith@ptions #1}{\@fileswith@pti...
+l.2 \usepackage[ngerman]
+                        {babel}
+If you really absolutely need more capacity,
+you can ask a wizard to enlarge me.
+
+ 
+Here is how much of TeX's memory you used:
+ 5 strings out of 492995
+ 183 string characters out of 6132704
+ 174775 words of memory out of 5000000
+ 3658 multiletter control sequences out of 15000+600000
+ 3640 words of font info for 14 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 4288i,0n,10001p,82b,8s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!

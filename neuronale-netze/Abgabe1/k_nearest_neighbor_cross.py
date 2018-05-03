@@ -90,9 +90,9 @@ class KNearestNeighbor(object):
           is the Euclidean distance between the ith test point and the jth training
           point.
         """
-        num_test = X.shape[0]
-        num_train = self.X_train.shape[0]
-        dists = np.zeros((num_test, num_train))
+        xx = np.sum(X**2, axis=1)
+        yy = np.sum(self.X_train**2, axis=1)
+        xy = np.dot(X, self.X_train.T)
         #########################################################################
         # TODO (3):                                                            #
         # Compute the Euclidean distance between all test points and all        #
@@ -105,7 +105,13 @@ class KNearestNeighbor(object):
         # Hint: Try to formulate the Euclidean distance using matrix            #
         #       multiplication and two broadcast sums.                          #
         #########################################################################
-
+        
+        # with the help of: https://medium.com/dataholiks-distillery/l2-distance-matrix-vectorization-trick-26aa3247ac6c
+        # (x-y)^2 = x^2 + y^2 - 2xy => sqrt() => distance 
+        dists = np.sqrt(-2 * np.dot(X, self.X_train.T) 
+                        + np.sum(self.X_train**2, axis=1) 
+                        + np.sum(X**2, axis=1)[:, np.newaxis]
+                       )
         #########################################################################
         #                         END OF YOUR CODE                              #
         #########################################################################

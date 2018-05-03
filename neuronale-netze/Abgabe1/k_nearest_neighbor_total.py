@@ -118,7 +118,7 @@ class KNearestNeighbor(object):
 
         Inputs:
         - dists: A numpy array of shape (num_test, num_train) where dists[i, j]
-          gives the distance betwen the ith test point and the jth training point.
+          gives the distance between the i'th test point and the jth training point.
 
         Returns:
         - y: A numpy array of shape (num_test,) containing predicted labels for the
