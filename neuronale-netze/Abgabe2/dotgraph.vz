@@ -1,0 +1,32 @@
+// The Round Table
+digraph {
+	graph [rotate=90]
+	a [label=2 shape=plaintext]
+	b [label=e shape=plaintext]
+	c [label=3 shape=plaintext]
+	A [label="+"]
+	B [label=ln]
+	C [label="*"]
+	d [label="1/3"]
+	D [label="*"]
+	E [label="1/x"]
+	F [label=out shape=plaintext]
+	B -> A [label="F: 0 
+ B: 1"]
+	A -> C [label="F: 0 
+ B: 1"]
+	a -> A [label="F: 0 
+ B: 1"]
+	b -> B [label="F: 0 
+ B: 1"]
+	c -> C [label="F: 0 
+ B: 1"]
+	C -> D [label="F: 0 
+ B: 1"]
+	d -> D [label="F: 0 
+ B: 1"]
+	D -> E [label="F: 0 
+ B: 1"]
+	E -> F [label="F: 0 
+ B: 1"]
+}
